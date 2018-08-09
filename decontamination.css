@@ -1,0 +1,20 @@
+.main-illustration{
+    height: 30em;
+}
+
+.main-illustration > .col > img {
+    height: 100%;
+    width: 100%;
+}
+
+.cell {
+    height: 15em;
+}
+
+.half-cell {
+    height: 7.5em;
+}
+
+.half-cell-2 {
+    height: 7em;
+}
