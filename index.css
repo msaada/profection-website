@@ -1,0 +1,144 @@
+
+.focus-product{
+  position: absolute; 
+  bottom: 0;
+  background-color: red;
+  width: 10em;
+  height: 10em;
+  margin-left: 2rem;
+  z-index: 3;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  transform: translateY(50%);
+}
+
+.usage-unique {
+  background-image: url('images/usage-unique.png');
+  background-size: cover;
+  height: 40em;
+}
+.decontamination {
+  background-image: url('images/decontamination.jpg');
+  background-size: cover;
+  height: 40em;
+}
+.sutures {
+  background-image: url('images/sutures.png');
+  background-size: cover;
+  height: 40em;
+}
+.implantologie {
+  background-image: url('images/implantologie.png');
+  background-size: cover;
+  height: 40em;
+}
+
+.usage-unique-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    background: #264990;
+    transition: opacity 200ms ease-in-out;
+    margin: 0;
+}
+.decontamination-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    background: #319596;
+    transition: opacity 200ms ease-in-out;
+    margin: 0;
+}
+.sutures-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    background:#e37707;
+    transition: opacity 200ms ease-in-out;
+    margin: 0;
+}
+.implantologie-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    background: #e15095;
+    transition: opacity 0.6s ease 0s;
+    -webkit-transition: opacity 0.6s ease 0s;
+    margin: 0;
+}
+
+.usage-unique-title:hover + #usage-unique-underline{
+  width: 20%;
+}
+
+.decontamination-title:hover + #decontamination-underline{
+  width: 20%;
+}
+
+.sutures-title:hover + #sutures-underline{
+  width: 20%;
+}
+
+.implantologie-title:hover + #implantologie-underline{
+  width: 20%;
+}
+
+
+.usage-unique-overlay:hover,
+.decontamination-overlay:hover,
+.sutures-overlay:hover,
+.implantologie-overlay:hover
+{
+  opacity: 0.95;
+}
+
+
+.title-underline{
+  height: 2px;
+  width: 0%; 
+  background-color: white;
+  transition: width 0.1s ease;
+  -webkit-transition: width 0.1s ease;
+}
+
+#categories a{
+  color: white;
+  transition: ease-in-out color .15s;
+  text-decoration: none;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
