@@ -12,22 +12,25 @@
 }
 
 .usage-unique {
-  background-image: url('images/usage-unique.png');
+  background-image: url('images/home/usage-unique.png');
   background-size: cover;
   height: 40em;
 }
+
 .decontamination {
-  background-image: url('images/decontamination.jpg');
+  background-image: url('images/home/decontamination.jpg');
   background-size: cover;
   height: 40em;
 }
+
 .sutures {
-  background-image: url('images/sutures.png');
+  background-image: url('images/home/sutures.png');
   background-size: cover;
   height: 40em;
 }
+
 .implantologie {
-  background-image: url('images/implantologie.png');
+  background-image: url('images/home/implantologie.png');
   background-size: cover;
   height: 40em;
 }
