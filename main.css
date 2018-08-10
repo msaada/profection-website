@@ -21,16 +21,16 @@
     transition: ease-in-out color .15s;
   }
   .site-header a:hover {
-    color: #fff;
+    color: #264990;
     text-decoration: none;
+    transform: scale(1.1);
+    transition: 0.5s ease;
   }
 
   .site-header .row {
     height: 100%;
   }
 
-
-  
   .site-footer {
     background-color: #838e99;
     padding-top: 7em;
