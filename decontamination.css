@@ -3,8 +3,12 @@
 }
 
 .main-illustration > .col > img {
-    height: 100%;
+    height: auto;
     width: 100%;
+}
+
+.cell-background{
+    background-color: #1e9997;
 }
 
 .cell {
@@ -15,6 +19,26 @@
     height: 7.5em;
 }
 
+
 .half-cell-2 {
     height: 7em;
+}
+
+.cell-border {
+    border: 2px solid #1e9997 !important; /* Made important to override bootstrap border */
+}
+
+.cell img {
+    height: 100%;
+    width: auto;
+}
+.half-cell img, .half-cell-2 img {
+    height: 100%;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .half-cell, .half-cell-2 {
+        height: 15em;        
+    }
 }
