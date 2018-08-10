@@ -1,0 +1,44 @@
+.main-illustration{
+    height: 30em;
+}
+
+.main-illustration > .col > img {
+    height: auto;
+    width: 100%;
+}
+
+.cell-background{
+    background-color: #e15095;
+}
+
+.cell {
+    height: 15em;
+}
+
+.half-cell {
+    height: 7.5em;
+}
+
+
+.half-cell-2 {
+    height: 7em;
+}
+
+.cell-border {
+    border: 2px solid #e15095 !important; /* Made important to override bootstrap border */
+}
+
+.cell img {
+    height: 100%;
+    width: auto;
+}
+.half-cell img, .half-cell-2 img {
+    height: 100%;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .half-cell, .half-cell-2 {
+        height: 15em;        
+    }
+}
